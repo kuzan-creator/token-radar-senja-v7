@@ -1,4 +1,4 @@
-/* Token Radar Senja v6 dashboard.
+/* Token Radar Senja v7 dashboard.
    Data: board.json (rows + farm plans, fetched from one level up) and evidence.js
    (everything the board's program computed: model, ablations, bootstrap, census).
    The page renders with no network: the only fetch is the relative board.json beside it.

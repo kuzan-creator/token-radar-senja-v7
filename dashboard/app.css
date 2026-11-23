@@ -1,4 +1,4 @@
-/* Token Radar Senja v6 — light editorial theme. Cream paper, ink text, one accent. */
+/* Token Radar Senja v7 — light editorial theme. Cream paper, ink text, one accent. */
 :root{
   --paper:#faf7f0; --card:#fffdf8; --ink:#1d1a16; --muted:#6f6a5e; --line:#e3ddd0;
   --accent:#8a5a00; --accent-bg:#f3e5c8; --green:#1d6b34; --green-bg:#dff0e2;
@@ -19,7 +19,7 @@ a{color:var(--accent)}
 .masthead{background:#1d1a16;color:#f5efe2;padding:.5rem 1rem .6rem}
 .masthead-in{max-width:1240px;margin:0 auto;display:flex;justify-content:space-between;gap:1rem;align-items:flex-end}
 .masthead h1{font-size:1.5rem;letter-spacing:.01em}
-.masthead h1 .v6{color:#e8b64c}
+.masthead h1 .v7{color:#e8b64c}
 .masthead .sub{margin:.25rem 0 0;font-size:.85rem;color:#d8cfba;max-width:640px}
 .mast-side{font-family:'Helvetica Neue',Arial,sans-serif;font-size:.75rem;color:#cfc5ac;text-align:right;white-space:nowrap}
 main{max-width:1240px;margin:0 auto;padding:.7rem 1rem 1.5rem}
