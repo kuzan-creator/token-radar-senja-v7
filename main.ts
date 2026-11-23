@@ -1,4 +1,4 @@
-// Token Radar Senja v6 — evidence-first launch-value board (make.fun token-radar-01).
+// Token Radar Senja v7 — evidence-first launch-value board (make.fun token-radar-01).
 //
 // What this program does, in one paragraph: it reads the sealed DefiLlama snapshot,
 // separates the protocols that record no token (symbol null) from the ones whose token
@@ -647,7 +647,8 @@ const farmCountAt = (part: Num): number =>
   ROWS.filter((r) => (r.band_low_usd * DROP_SHARE * (DEPOSIT_USD / (part * r.tvl_usd)) - FEES_USD) >= VERDICT_HURDLE).length;
 
 const evidence = {
-  title: 'Token Radar Senja v6 — evidence-first launch-value board',
+  // Keep the title on the entry version (v7): it is printed into evidence.js and dossier.json.
+  title: 'Token Radar Senja v7 — evidence-first launch-value board',
   asOf: snap.as_of,
   source: snap.source,
   checksum: MAIN_CHECKSUM,
